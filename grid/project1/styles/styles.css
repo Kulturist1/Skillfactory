@@ -1,0 +1,167 @@
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+
+    
+
+}
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+body {
+    font-family: 'Inter';
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    min-height: 100%;
+    
+}
+
+
+.main {
+    
+}
+
+[class*="__container"] {
+    max-width: 996px;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+@media (max-width: 966px) {
+    [class*="__container"] {
+        (max-width: 900px)
+        }
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.header__container {
+    display: flex;
+    min-height: 85px;
+    align-items: center;
+}
+.header__menu {
+    flex: 1 1 auto;
+}
+.header__logo {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0px 180px 0px 0px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 3px 0px 0px;
+}
+.menu__list {
+    display: flex;
+}
+.menu__button {
+    margin: 0px 35px 0px 0px;
+}
+.menu__item {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0px 30px 0px 0px;
+}
+.menu__link {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.search__link {
+    margin: 0px 0px 0px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+}
+
+.menu__search {
+    font-family: 'Inter';
+    border: none;
+    background-color: #ffffff;
+    margin: 0px 186px 0px 0px;
+}
+
+.menu__buttonsearch {
+    margin: 0px 12px 0px 0px;
+    
+}
+
+.page1 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+    padding: 155px 0px 113px 0px;
+}
+
+.page1__container {
+    flex-direction: row;
+    display: inline;
+}
+
+
+.page1__content {
+    flex-direction: row;
+    display: inline;
+    
+}
+
+.block__text {
+    flex-direction: row;
+    display: inline;
+    
+}
+
+
+.block-text__title {
+    flex-direction: row;
+    display: inline;
+}
+
+.block-text__text {
+    flex-direction: row;
+    display: inline;
+}
+
+.page1_image {  
+    flex-direction: row;
+    display: inline;
+}
+
+.page1_image img{ 
+    flex-direction: row;
+    display: inline;
+
+    
+}
+
+
+

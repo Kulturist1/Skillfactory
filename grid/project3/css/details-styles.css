@@ -1,0 +1,226 @@
+a {  
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096; 
+    background-color: #FBFBFB;
+    max-width: 1280px;
+}
+
+.header-details {
+    max-width: 1280px;
+    display: flex;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 25px;
+    text-align: center;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 109px;
+    max-width: 973px;
+    align-items: center;
+}
+
+.header-search {
+    margin-left: 272px;
+}
+.search-button {
+    padding: 0 12px;
+}
+.header-input {
+    border: none;
+    background-color: #FBFBFB;
+    outline: none;
+    color: #718096;
+    margin-right: 67px;
+}
+.header-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-link {
+    margin-left: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.header-inst {
+    margin-left: 30px;
+}
+.header-twitter {
+    margin-left: 35px;
+}
+.header-linkedin {
+    margin-left: 35px;
+}
+
+.details-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.conteiner-details-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 765px;
+    margin-bottom: 58px;
+    padding-right: 67px;
+}
+.details-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #2D3748;
+}
+.details-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2D3748;
+    margin-top: 10px;
+}
+.details-date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #718096;
+    margin-left: 195px;
+    margin-top: -21px;
+}
+.details-border {
+    border: 1px solid #E8E7E7;
+    margin-top: 30.5px;
+    margin-bottom: 37.5px;
+}
+.details-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #718096;
+}
+.details-text-bold {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2D3748;
+    padding: 15px 0;
+}
+.details-h2 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2D3748;
+    padding: 15px 0;
+}
+
+p:nth-child(5) {
+    padding-bottom: 15px;
+}
+
+.details-button {
+    display: flex;
+    align-self: end;
+    padding-bottom: 76px;
+}
+.details-gohome {
+    border: none;
+    background-color: #FBFBFB;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #E8E8E8;
+    height: 79px;
+    width: 1152.0069580078125px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+}
+
+.container-footer {
+    width: 1152px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: none;
+}
+
+.footer-right {
+    height: 19px;
+    width: 348px;
+    margin-left: 89px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    margin-inline-end: 100px;
+    padding: 0 0;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+
+}
+
+.footer-logo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.footer-item {
+    margin-left: 35px;
+}
+
+
+@media (max-width: 800px){
+    .conteiner-details-content {
+        max-width: 800px;
+        max-height: 6000px;
+        margin-left: 50px;
+    }
+    body {
+        max-width: 800px;
+        display: grid;
+    }
+    .details-content {
+        justify-content: flex-start;
+    }
+}

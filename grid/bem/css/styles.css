@@ -1,0 +1,35 @@
+.about {
+}
+.about__body {
+}
+.about__header {
+}
+.about__title {
+    margin: 0px 0px 30px 0px;
+}
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8.95px;
+    position: relative;
+    text-align: center;
+    .about__title:after{
+        content:'';
+        position: absolute
+    }
+}
+.about__text {
+}
+.about__row {
+}
+.about__column {
+}
+.item-about {
+}
+.item-about__icon {
+}
+.item-about__title {
+}
+.item-about__text {
+}
